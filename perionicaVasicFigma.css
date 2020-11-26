@@ -91,7 +91,11 @@ nav ul li:hover{
 nav ul li:hover a{
     color: #151440;
 }
-.img-header img{
+.img-header{
+    background-image: url(auto3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     width: 100%;
     height: 15rem;
 }
