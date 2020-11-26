@@ -248,6 +248,7 @@ section{
     color: #2020ff;
 }
 .blog-holder{
+    padding-top: 3rem;
     width: 100%;
     /* height: auto; */
     display: flex;
@@ -257,7 +258,44 @@ section{
 }
 .velika-kartica{
     margin-bottom: 1em;
-    width: 30%;
-    height: 300px;
+    width: 26%;
+    height: 30rem;
     border: 1px solid #222;
+}
+.velika-kartica img{
+    width: 100%;
+    height: 50%;
+}
+.velika-kartica div{
+    width: 100%;
+    height: 50%;
+    padding: 1rem;
+    position: relative;
+}
+.velika-kartica div h2{
+    color: #151440;
+}
+.velika-kartica div p{
+    color: #222;
+}
+.velika-kartica div a{
+    position: absolute;
+    bottom: 5%;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    background-color: #151440;
+    color: #fff;
+}
+.velika-kartica div .datum{
+    color: #ff2020;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+.naslov-sekcije{
+    text-align: center;
+    margin-top: 2rem;
+}
+.naslov-sekcije span{
+    color: #ff2020;
 }
